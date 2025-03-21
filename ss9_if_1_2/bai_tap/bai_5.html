@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xep loai hoc luc cua hoc sinh</title>
+</head>
+<body>
+
+</body>
+<script>
+    let a = prompt ("Điểm bài kiểm tra");
+    let b = prompt ("Điểm giữa kì");
+    let c = prompt ("Điểm cuối kì");
+    let diemTrungBinh = (a+b*3+c*6)/10;
+    document.write("Điểm trung bình");
+    if (diemTrungBinh >= 8.5 ) {
+        document.write ("Giỏi");
+    }else if (diemTrungBinh >= 6.5 ) {
+        document.write ("Khá");
+    }else if (diemTrungBinh >= 4.5 ) {
+        document.write ("Trung bình");
+    } else {
+        document.write ("Yếu");
+    }
+
+</script>
+</html>
